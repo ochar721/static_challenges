@@ -1,0 +1,79 @@
+  h1{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-color: white;
+    padding: 15px;
+    font-family: sans-serif;
+    }
+
+  h2{
+    color: white;
+    font-size: 25px;
+    font-size: sans-serif;
+  }
+
+  button{
+    text-align:center;
+    padding: 24px;
+    background: green;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    margin-left:  1200px;
+    margin-top: -64px;
+  }
+
+  nav{
+    padding: 20px;
+    text-align: center;
+    background-color: pink;
+    color: white;
+    margin: 1px;
+  }
+
+  li{
+    display: inline;
+    padding:  100px;
+  }
+
+  a{
+    color:white;
+    text-decoration:none;
+  }
+
+  .main{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .top-left{
+    position:absolute;
+    top: 8px;
+    left: 16px;
+  }
+
+  .imageblock{
+    display: flex;
+    justify-content: space-between;
+  }
+  .imageblock figure{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    margin:0;
+  }
+
+  .imageblock figcaption{
+    text-align:  left;
+    font-weight: 600;
+    margin-top: 60px;
+  }
+
+  img{
+    height: 60%;
+  }
